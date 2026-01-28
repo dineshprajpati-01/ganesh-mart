@@ -1,0 +1,33 @@
+
+
+.side-mart{
+    height:calc(100vh - 56px);
+    overflow-y: scroll;
+       
+}
+
+.side-mart-item{
+    border-radius: 0px !important;
+    transition: 0.5s;
+}
+
+.side-mart-item:hover{
+    cursor: pointer;
+    background-color: skyblue;
+    font-weight: bold;
+}
+
+.img-farm-mart{
+    height: 200px;
+    object-fit: contain;
+    overflow: scroll;
+}
+
+.das_mart{
+    height: calc(100vh - 56px);
+    overflow-y: scroll;
+}
+
+.das_mart::-webkit-scrollbar{
+    display: none;
+}
