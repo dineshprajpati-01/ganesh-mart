@@ -23,7 +23,7 @@ const Product = () => {
       .finally(function () {
         // always executed
       });
-  }, []);
+  }, [id]);
 
   let manageCart = (items) => {
       dispatch(addTocart(items))
